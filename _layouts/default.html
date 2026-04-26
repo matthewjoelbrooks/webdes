@@ -40,5 +40,16 @@
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
       </div>
     </footer>
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   </body>
 </html>
