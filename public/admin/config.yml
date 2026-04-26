@@ -3,7 +3,7 @@ backend:
   repo: matthewjoelbrooks/webdes
   branch: main
   auth_type: github_app
-  app_id: YOUR_APP_ID
+  app_id: Ov23liJR9KgEy2RUsJpk
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
