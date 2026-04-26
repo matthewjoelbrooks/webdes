@@ -3,7 +3,6 @@ backend:
   repo: matthewjoelbrooks/webdes
   branch: main
   auth_type: github_app
-  scope: 'repo'
   client_id: 'Ov23liJR9KgEy2RUsJpk'
   uth_endpoint: 'auth'
   
