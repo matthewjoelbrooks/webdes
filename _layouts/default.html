@@ -25,6 +25,16 @@
       {{ content }}
     </main>
 
+    <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span>{{ post.date | date_abbr }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
+
     <footer class="footer">
       <div class="container">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
