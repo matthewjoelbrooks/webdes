@@ -24,7 +24,7 @@
     <main class="container">
       {{ content }}
     </main>
-
+{% if template.name == 'index' %}
     <ul>
   {% for post in site.posts %}
     <li>
@@ -33,7 +33,7 @@
     </li>
   {% endfor %}
 </ul>
-
+{% endif %}
 
     <footer class="footer">
       <div class="container">
