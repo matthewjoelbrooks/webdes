@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: matthewjoelbrooks/webdes
   branch: main
   auth_type: github_app
