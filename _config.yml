@@ -1,0 +1,17 @@
+# Jekyll Site Configuration
+title: Web Design
+author: matthewjoelbrooks
+description: A modern web design portfolio and project showcase
+baseurl: /webdes
+url: https://matthewjoelbrooks.github.io
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+future: false
+lsi: false
