@@ -24,7 +24,7 @@
     <main class="container">
       {{ content }}
     </main>
-{% if template.name == 'index' %}
+{% if page.url == "/" %}
     <ul>
   {% for post in site.posts %}
     <li>
