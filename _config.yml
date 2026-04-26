@@ -3,7 +3,7 @@ title: Web Design
 author: matthewjoelbrooks
 description: A modern web design portfolio and project showcase
 baseurl: /webdes
-url: https://matthewjoelbrooks.github.io
+url: https://matthewjoelbrooks.github.io/webdes
 
 theme: minima
 plugins:
